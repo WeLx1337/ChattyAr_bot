@@ -1,7 +1,7 @@
 import os
 import requests
 import telegram.ext
-TOKEN = os.environ['API_KEY']
+TOKEN = '1917773290:AAFK2yGFDJCUwLcdmiIdn8VfVGcOtPLwQ6A'
 def start(update, context):
   update.message.reply_text("أخبرني عن ماذا تريد أن تتحدث؟")
 def chab(update, context):
